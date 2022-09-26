@@ -27,11 +27,21 @@ h2 {
   margin-bottom: 5rem;
 }
 
+.label {
+  color: rgb(206, 49, 174);
+}
+
+.label:hover {
+  color: rgb(179, 201, 38);
+  transform: scale(1.5);
+}
+
 .twovert {
   height: 50%;
 }
 
 .threevert {
+  height: 33.333%;
 }
 
 .threehoriz {
@@ -59,6 +69,10 @@ h2 {
 
 /* QUESTION 1 */
 
+.red {
+  background-color: red;
+}
+
 .orange {
   background-color: orange;
 }
@@ -75,7 +89,8 @@ h2 {
   background-color: blue;
 }
 
-.lightblue {
+.lightblue,
+.light-blue {
   background-color: lightblue;
 }
 
@@ -83,7 +98,8 @@ h2 {
   background-color: purple;
 }
 
-.white {
+.white,
+#white {
   background-color: #fff;
 }
 
@@ -94,15 +110,18 @@ h2 {
 /* BEGIN QUESTION 2 */
 
 .thailand-red {
-  /* TODO */
+  background-color: #b5002d;
+  height: 15%;
 }
 
 .thailand-white {
-  /* TODO */
+  background-color: white;
+  height: 15%;
 }
 
 .thailand-blue {
-  /* TODO */
+  background-color: #2e2a4c;
+  height: 40%;
 }
 
 /* END QUESTION 2 */
@@ -129,7 +148,9 @@ h2 {
 }
 
 .mexico-img {
-  /* TODO */
+  align-self: center;
+  max-width: 40%;
+  background-color: white;
 }
 
 .mexico-red {
@@ -149,17 +170,32 @@ h2 {
 /* For margin practice */
 .flag1 {
   background-color: red;
-  /* TODO */
+  margin-right: 5px;
 }
 
 .flag2 {
   background-color: blue;
-  /* TODO */
+  margin-left: 5px;
 }
 /* For padding practice */
 .padding-container {
   box-sizing: border-box;
   background-color: lightblue;
   background-clip: content-box, padding-box;
-  /* TODO */
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.italy-left {
+  background-color: #008c45;
+}
+
+.italy-middle {
+  background-color: white;
+}
+
+.italy-right {
+  background-color: #cd212a;
 }
